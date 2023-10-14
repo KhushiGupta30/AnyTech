@@ -1,0 +1,140 @@
+/* global */
+
+*{
+    box-sizing :border-box;
+    margin : 0;
+    padding : 0;
+}
+
+
+#Head{
+    height : 60px;
+    background-color: rgb(115,212,224);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#Navbar{
+    margin : 10px;
+    background-color : #fcefef ;
+}
+
+
+#bar2{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin : 25px ;
+    padding : 25px;
+    background-image: url(backgroundimage.jpg);
+
+}
+input{
+    height: 30px;
+    width: 500px;
+}
+button{
+    background-color: rgb(242, 185, 42);
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+    float: right;
+    
+}
+
+
+
+
+#Navbar a{
+    color:black;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-right: 150px;
+}
+
+
+
+#allcontent{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    margin : 25px ;
+    padding : 25px;
+}
+
+#row {
+    display: grid;
+    grid-template-columns: 70% 15% 15%;
+    margin : 25px ;
+    padding : 25px;
+    outline : 1px solid grey ;
+  
+
+}
+
+h1{
+    padding-top: 0%;
+    margin-top: 0%;
+    font-size: 30px;
+    font-weight: bolder;
+    
+
+}
+
+
+
+#postsum{
+    margin : 25px ;
+    padding : 25px;
+    outline : 1px solid grey ;
+
+}
+
+#bar{
+    margin-top: 0%;
+    padding-top: 0%;
+    margin : 20px ;
+    padding : 25px;
+
+}
+
+#commentbox{
+    margin-top: 0%;
+    padding-top: 0%;
+    margin : 25px ;
+    padding : 25px;
+
+}
+
+#mySidenav{
+    outline : 1px solid grey ;
+    display: block;
+    background-color:  #fcefef;
+    margin-bottom: 100px;
+
+
+
+
+}
+
+#contentandsidenav {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    margin : 25px ;
+    padding : 25px;
+
+
+}
+
+#mySidenav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: hsl(0, 0%, 0%);
+    display: block;
+
+
+}
+
+a{
+    text-decoration: none;
+}
